@@ -70,7 +70,7 @@ body {
     align-items: center; 
     gap: 0px;
     padding: 0px;
-    background: linear-gradient(rgb(209, 209, 253), rgb(0, 0, 151));
+    background: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 39));
   }
   
   
@@ -92,8 +92,8 @@ body {
     justify-items: center;
     position: relative;
     justify-content: center;
-    padding: 1rem;
-    margin: 2rem;
+    padding: 0.7rem;
+    margin: 1.5rem;
 
     
   }
