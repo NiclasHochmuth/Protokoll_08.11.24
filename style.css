@@ -7,7 +7,6 @@ body {
       font-size: 16px;
     height: 100vh;
       overflow: auto;
-    background: black;
     justify-content: center;
   }
 
@@ -71,12 +70,13 @@ body {
     align-items: center; 
     gap: 0px;
     padding: 0px;
+    background: linear-gradient(rgb(209, 209, 253), rgb(0, 0, 151));
   }
   
   
    .textblock{
-    justify-content: flex-start;
-    display: block;
+    justify-content: center;
+    display: flex;
      width: 100%;
      font-family: 'Segoe UI';
      flex-wrap: wrap;
@@ -84,13 +84,17 @@ body {
 
 
   img {
-    width: 30%;
+    width: 60%;
     height: auto;
     border: solid;
-    border-width: 1rem;
+    border-color: white;
+    border-width: 0.2rem;
     justify-items: center;
     position: relative;
     justify-content: center;
+    padding: 1rem;
+    margin: 1rem;
+
     
   }
 
